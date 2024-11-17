@@ -1,0 +1,56 @@
+.container {
+  width: 1920px;
+  height: 107px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 162px 40px 162px;
+  position: absolute;
+  bottom: 0;
+  box-sizing: border-box;
+  border-top: 1px solid rgb(28, 28, 33);
+}
+
+.leftContainer {
+  width: 296px;
+  height: 27px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 23px;
+  padding: 0;
+}
+
+.leftContainer p {
+  color: rgb(121, 124, 134);
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+}
+.rightContainer {
+  width: 450px;
+  height: 27px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  color: rgb(121, 124, 134);
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+}
+
+.containerNetWorks {
+  width: 196px;
+  height: 68px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid rgb(28, 28, 33);
+  border-radius: 100px;
+  background: rgb(7, 7, 8);
+}

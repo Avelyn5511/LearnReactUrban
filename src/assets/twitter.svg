@@ -1,0 +1,25 @@
+<svg width="50.000000" height="50.000000" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip44_377">
+			<rect id="Icon" rx="0.000000" width="19.000000" height="19.000000" transform="translate(15.500000 15.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<clipPath id="clip44_376">
+			<rect id="Button" rx="24.500000" width="49.000000" height="49.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<linearGradient x1="25.000006" y1="0.999994" x2="25.000006" y2="49.000000" id="paint_linear_44_376_0" gradientUnits="userSpaceOnUse">
+			<stop offset="0.278527" stop-color="#2F2F37"/>
+			<stop offset="1.000000" stop-color="#2F2F37" stop-opacity="0.000000"/>
+		</linearGradient>
+	</defs>
+	<rect id="Button" rx="24.500000" width="49.000000" height="49.000000" transform="translate(0.500000 0.500000)" fill="#1C1C21" fill-opacity="1.000000"/>
+	<g clip-path="url(#clip44_376)">
+		<rect id="Icon" rx="0.000000" width="19.000000" height="19.000000" transform="translate(15.500000 15.500000)" fill="#FFFFFF" fill-opacity="0"/>
+		<g clip-path="url(#clip44_377)">
+			<path id="Vector" d="M21.29 33.12C28.83 33.12 32.96 26.87 32.96 21.45C32.96 21.27 32.96 21.09 32.95 20.92C33.75 20.33 34.44 19.62 35 18.79C34.25 19.12 33.45 19.34 32.64 19.44C33.5 18.92 34.14 18.12 34.44 17.17C33.64 17.64 32.76 17.98 31.84 18.16C31.22 17.5 30.4 17.07 29.51 16.92C28.62 16.78 27.71 16.93 26.91 17.36C26.11 17.78 25.48 18.46 25.11 19.28C24.73 20.1 24.64 21.02 24.84 21.9C23.21 21.82 21.62 21.4 20.16 20.66C18.7 19.92 17.42 18.89 16.39 17.62C15.87 18.52 15.71 19.59 15.94 20.61C16.18 21.63 16.79 22.51 17.66 23.1C17.01 23.07 16.37 22.9 15.8 22.58L15.8 22.63C15.8 23.58 16.13 24.5 16.73 25.23C17.33 25.97 18.16 26.47 19.09 26.66C18.49 26.82 17.85 26.85 17.24 26.73C17.5 27.54 18.01 28.26 18.7 28.77C19.39 29.28 20.22 29.56 21.07 29.58C19.62 30.72 17.82 31.34 15.98 31.34C15.65 31.34 15.32 31.32 15 31.28C16.87 32.48 19.06 33.12 21.29 33.12Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+		</g>
+	</g>
+	<rect id="Button" rx="24.500000" width="49.000000" height="49.000000" transform="translate(0.500000 0.500000)" stroke="url(#paint_linear_44_376_0)" stroke-opacity="1.000000" stroke-width="1.000000"/>
+</svg>

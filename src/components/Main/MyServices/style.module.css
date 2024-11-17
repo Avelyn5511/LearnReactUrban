@@ -1,0 +1,230 @@
+.container {
+  position: absolute;
+  width: 1596px;
+  height: 865px;
+  left: 162px;
+  top: 2389px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 80px;
+  padding: 0;
+}
+
+.titleContainer {
+  position: static;
+  width: 1596px;
+  height: 160px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  padding: 0 0 50px 0;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgb(28, 28, 33);
+}
+
+.btnAllServices {
+  position: absolute;
+  width: 210px;
+  height: 59px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 24px 16px 24px;
+  border-radius: 10px;
+  background: rgb(28, 28, 33);
+  color: rgb(255, 255, 255);
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  top: 25px;
+  right: 0;
+}
+
+.btnMore {
+  position: absolute;
+  width: 160px;
+  height: 82px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 16px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid rgb(28, 28, 33);
+  border-radius: 100px;
+  background: rgb(7, 7, 8);
+  top: 14px;
+  left: 1196px;
+}
+
+.btnMore button {
+  width: 62px;
+  height: 62px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 14px;
+  border-radius: 100px;
+  background: rgb(28, 28, 33);
+  text-align: center;
+  font-size: 30px;
+}
+
+.titleUp {
+  position: absolute;
+  width: 1176px;
+  height: 27px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+  padding: 0;
+  color: rgb(121, 124, 134);
+  font-family: "Manrope", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  top: 0;
+}
+
+.titleDown {
+  position: absolute;
+  width: 1176px;
+  height: 79px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+  padding: 0;
+  color: rgb(255, 255, 255);
+  font-family: "Manrope", sans-serif;
+  font-size: 58px;
+  text-transform: uppercase;
+  top: 31px;
+}
+
+.photoCard {
+  position: absolute;
+  width: 773px;
+  height: 625px;
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  border-radius: 20px 20px 20px 100px;
+  top: 240px;
+  right: 0;
+}
+
+.containerDis {
+  position: absolute;
+  width: 1596px;
+  height: 625px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 50px;
+  padding: 0;
+  top: 240px;
+  left: 0;
+}
+
+.btnTitleDis {
+  width: 130px;
+  height: 66px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  padding: 18px 50px 18px 50px;
+  border-radius: 100px;
+  box-shadow: inset 4px 4px 17.4px 0px rgba(255, 255, 255, 0.28);
+  background: rgb(74, 44, 237);
+}
+
+.titleDis {
+  width: 773px;
+  height: 66px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  padding: 0;
+  color: rgb(121, 124, 134);
+  font-family: "Manrope", sans-serif;
+  font-size: 44px;
+  text-transform: uppercase;
+}
+
+.titleText {
+  width: 773px;
+  height: 108px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 0;
+  color: rgb(121, 124, 134);
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  position: absolute;
+  top: 86px;
+}
+
+li {
+  width: 773px;
+  height: 76px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  padding: 18px 20px 18px 20px;
+  box-sizing: border-box;
+  border: 1px solid rgb(28, 28, 33);
+  border-radius: 12px;
+  color: rgb(175, 176, 182);
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.imgStar {
+  width: 40px;
+  height: 40px;
+}
+
+.titleUl {
+  color: rgb(202, 202, 206);
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  width: 773px;
+  height: 27px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 0;
+  position: absolute;
+  left: 0;
+  top: 244px;
+}
+
+ul {
+  position: absolute;
+  top: 291px;
+  left: 0;
+}

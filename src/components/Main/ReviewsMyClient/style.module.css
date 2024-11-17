@@ -1,0 +1,266 @@
+.container {
+  position: absolute;
+  width: 1597px;
+  height: 657px;
+  left: 162px;
+  top: 5479px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 80px;
+  padding: 0;
+}
+
+.containerTitle {
+  width: 1597px;
+  height: 255px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 0 0 50px 0;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgb(28, 28, 33);
+}
+
+.titleText {
+  width: 1597px;
+  height: 255px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 20px;
+  color: rgb(121, 124, 134);
+  font-size: 20px;
+  font-family: "Manrope", sans-serif;
+  text-transform: uppercase;
+}
+
+.secondTitleText {
+  width: 1142px;
+  height: 79px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+  padding: 0;
+  font-family: "Manrope", sans-serif;
+  text-transform: uppercase;
+  font-size: 58px;
+  color: rgb(255, 255, 255);
+}
+
+.thirdTitleText {
+  width: 1142px;
+  height: 27px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 6px;
+  padding: 0;
+  font-family: "Manrope", sans-serif;
+  color: rgb(98, 100, 108);
+  font-size: 18px;
+}
+
+.fourthTitleText {
+  width: 1142px;
+  height: 42px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 6px;
+  padding: 0;
+  color: rgb(202, 202, 206);
+  font-size: 28px;
+  font-family: "Manrope", sans-serif;
+}
+
+.titleBtn {
+  width: 435px;
+  height: 82px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 123px;
+}
+
+.btnMore {
+  width: 160px;
+  height: 82px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 16px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid rgb(28, 28, 33);
+  border-radius: 100px;
+  background: rgb(7, 7, 8);
+  top: 14px;
+  left: 1196px;
+}
+
+.btnMore button {
+  width: 62px;
+  height: 62px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 14px;
+  border-radius: 100px;
+  background: rgb(28, 28, 33);
+  text-align: center;
+  font-size: 30px;
+}
+
+.btnAllServices {
+  width: 245px;
+  height: 59px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 24px 16px 24px;
+  border-radius: 10px;
+  background: rgb(28, 28, 33);
+  color: rgb(255, 255, 255);
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  top: 25px;
+  right: 0;
+}
+
+.reviewsContainer {
+  width: 1597px;
+  height: 322px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 0;
+}
+
+.containerCard {
+  width: 512.33px;
+  height: 322px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 40px;
+  box-sizing: border-box;
+  border: 1px solid rgb(28, 28, 33);
+  border-radius: 12px;
+  background: rgb(14, 14, 16);
+  flex-direction: row-reverse;
+}
+
+.titleCard {
+  width: 222.33px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0;
+  color: rgb(229, 229, 231);
+  font-size: 20px;
+  font-family: "Manrope", sans-serif;
+}
+
+.countryCard {
+  width: 222.33px;
+  height: 27px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0;
+  color: rgb(98, 100, 108);
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  opacity: 1;
+  z-index: 1;
+}
+
+.containerNetWorks {
+  width: 196px;
+  height: 68px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid rgb(28, 28, 33);
+  border-radius: 100px;
+  background: rgb(7, 7, 8);
+}
+
+.stars {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.titleParagraph {
+  font-size: 20px;
+  color: rgb(229, 229, 231);
+  width: 425px;
+  height: 90px;
+  font-family: "Manrope", sans-serif;
+}
+
+.containerText {
+  position: relative;
+  left: 220px;
+}
+
+/*.square1 {*/
+/*  position: absolute;*/
+/*  width: 489.83px;*/
+/*  height: 489.83px;*/
+/*  left: -258px;*/
+/*  top: 441px;*/
+/*  transform: rotate(34.66deg);*/
+/*  border-radius: 22px;*/
+/*  background: linear-gradient(*/
+/*    206.57deg,*/
+/*    rgb(24, 24, 27) 0%,*/
+/*    rgba(24, 24, 27, 0) 83.333%*/
+/*  );*/
+/*  opacity: 0.5;*/
+/*}*/
+
+/*.square2 {*/
+/*  position: absolute;*/
+/*  width: 489.83px;*/
+/*  height: 489.83px;*/
+/*  left: 344px;*/
+/*  top: 40px;*/
+/*  transform: rotate(-60.66deg);*/
+/*  border-radius: 22px;*/
+/*  background: linear-gradient(*/
+/*    206.57deg,*/
+/*    rgb(24, 24, 27) 0%,*/
+/*    rgba(24, 24, 27, 0) 83.333%*/
+/*  );*/
+/*  opacity: 0.5;*/
+/*}*/

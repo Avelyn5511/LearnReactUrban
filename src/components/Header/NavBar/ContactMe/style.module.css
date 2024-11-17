@@ -1,0 +1,21 @@
+.container {
+  padding: 16px 24px 16px 24px;
+  width: 148px;
+  border-radius: 10px;
+  background: rgb(28, 28, 33);
+  cursor: pointer;
+  display: inline;
+  left: 1607px;
+  top: 30px;
+  position: absolute;
+}
+
+button {
+  border: none;
+  font-size: 18px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  background: transparent;
+  cursor: pointer;
+}

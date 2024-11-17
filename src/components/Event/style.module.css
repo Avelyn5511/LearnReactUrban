@@ -1,0 +1,43 @@
+.container {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  width: 1920px;
+  height: 80px;
+  position: relative;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgb(28, 28, 33);
+  border-top: 1px solid rgb(28, 28, 33);
+  background: rgb(14, 14, 16);
+}
+
+.marqueeContent {
+  display: flex;
+  gap: 20px;
+  animation: marquee 10s linear infinite;
+}
+
+.eventRoad {
+  width: 280px;
+  display: inline-flex;
+  align-items: center;
+  color: white;
+  gap: 10px;
+  font-size: 18px;
+  font-family: "Manrope", sans-serif;
+}
+
+.imgStar {
+  width: 40px;
+  height: 40px;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

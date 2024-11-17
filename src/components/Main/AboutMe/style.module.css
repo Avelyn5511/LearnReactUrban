@@ -1,0 +1,265 @@
+.container {
+  position: absolute;
+  width: 1596px;
+  height: 950px;
+  left: 162px;
+  top: 1239px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 80px;
+  padding: 0;
+}
+
+.title {
+  width: 1596px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 0 0 50px 0;
+  box-sizing: border-box;
+  /* Dark/12 */
+  border-bottom: 1px solid rgb(28, 28, 33);
+}
+
+.topTitle {
+  top: 0;
+  width: 1413px;
+  height: 27px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+  padding: 0;
+  font-size: 20px;
+  font-family: "Manrope", sans-serif;
+  color: rgb(121, 124, 134);
+}
+
+.downTitle {
+  width: 1413px;
+  height: 79px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+  padding: 0;
+  color: rgb(255, 255, 255);
+  font-size: 58px;
+  font-family: "Manrope", sans-serif;
+  position: absolute;
+  top: 31px;
+}
+
+.butTitle {
+  width: 163px;
+  height: 59px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 24px 16px 24px;
+  border-radius: 10px;
+  background: rgb(28, 28, 33);
+  position: absolute;
+  right: 0;
+}
+
+.containerForm {
+  width: 1596px;
+  height: 710px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+  padding: 0;
+}
+
+.myPhoto {
+  position: absolute;
+  width: 783px;
+  height: 710px;
+  left: 0;
+  top: 240px;
+}
+
+.form {
+}
+
+.titleFormDisc {
+  width: 783px;
+  height: 276px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 40px;
+  box-sizing: border-box;
+  border: 1px solid rgb(28, 28, 33);
+  position: absolute;
+  border-radius: 10px 10px 0 0;
+  top: 289px;
+  right: 0;
+}
+
+.titleText {
+  color: rgb(175, 176, 182);
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  text-align: left;
+  width: 703px;
+  height: 135px;
+  position: absolute;
+  top: 101px;
+}
+
+.titleTextUp {
+  color: rgb(202, 202, 206);
+  font-family: "Manrope", sans-serif;
+  font-size: 30px;
+  width: 654px;
+  height: 41px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 10px;
+  padding: 0;
+}
+
+.wrapperForm {
+  width: 783px;
+  height: 336px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 40px;
+  position: absolute;
+  top: 274px;
+  right: -1px;
+  border-bottom: 1px solid rgb(28, 28, 33);
+  border-right: 1px solid rgb(28, 28, 33);
+  border-left: 1px solid rgb(28, 28, 33);
+  border-radius: 0 0 10px 10px;
+}
+
+.titleTextDown {
+  color: rgb(202, 202, 206);
+  font-family: "Manrope", sans-serif;
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 10px;
+  padding: 0;
+}
+
+.emailForm {
+  color: rgb(229, 229, 231);
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+}
+
+.inputEmail {
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-family: "Manrope", sans-serif;
+  color: rgb(175, 176, 182);
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+}
+.inputPhone {
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-family: "Manrope", sans-serif;
+  color: rgb(175, 176, 182);
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+}
+
+.phoneForm {
+  position: absolute;
+  color: rgb(229, 229, 231);
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  top: 118px;
+  right: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0;
+}
+
+.lets {
+  width: 213px;
+  height: 63px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 18px 34px 18px 34px;
+  color: rgb(255, 255, 255);
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  border-radius: 10px;
+  background: rgb(28, 28, 33);
+  position: absolute;
+  top: 230px;
+  left: 296px;
+}
+
+.download {
+  width: 213px;
+  height: 63px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 18px 34px 18px 34px;
+  color: rgb(255, 255, 255);
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  border-radius: 10px;
+  background: rgb(28, 28, 33);
+  position: absolute;
+  top: 230px;
+  left: 529px;
+}
+
+.containerNetWorks {
+  width: 196px;
+  height: 68px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid rgb(28, 28, 33);
+  border-radius: 100px;
+  background: rgb(7, 7, 8);
+  position: absolute;
+  top: 228px;
+}

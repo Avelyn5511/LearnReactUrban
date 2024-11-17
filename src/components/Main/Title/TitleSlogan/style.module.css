@@ -1,0 +1,116 @@
+.container {
+  width: 1920px;
+  height: 328px;
+  padding: 80px 162px 80px 162px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftContainer {
+  width: 582px;
+  height: 149px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 0;
+}
+
+.rightContainer {
+  width: 495px;
+  height: 168px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 0 10px 0 0;
+}
+
+.centerContainer {
+  padding-right: 100px;
+}
+
+.vector {
+  position: relative;
+  top: 8px;
+  width: 346px;
+  height: 346px;
+}
+
+.inPhoto {
+  width: 320px;
+  height: 30px;
+  font-family: "Manrope", sans-serif;
+  font-size: 22px;
+  color: rgb(98, 100, 108);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.Photograph {
+  width: 592px;
+  height: 109px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 0;
+  font-family: "Manrope", sans-serif;
+  font-size: 80px;
+  color: rgb(229, 229, 231);
+  text-transform: uppercase;
+}
+
+.firstTitle {
+  width: 290px;
+  height: 79px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  padding: 0;
+  color: rgb(255, 255, 255);
+  font-family: "Manrope", sans-serif;
+  font-size: 58px;
+  text-transform: uppercase;
+}
+
+.SecondTitle {
+  color: rgb(255, 255, 255);
+  font-family: "Manrope", sans-serif;
+  font-size: 58px;
+  width: 500px;
+  height: 79px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.titleButton {
+  width: 130px;
+  height: 66px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  padding: 18px 50px 18px 50px;
+  border-radius: 100px;
+  box-shadow: inset 4px 4px 17.4px 0px rgba(255, 255, 255, 0.28);
+  background: rgb(74, 44, 237);
+}

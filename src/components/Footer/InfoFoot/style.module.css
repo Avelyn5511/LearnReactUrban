@@ -1,0 +1,187 @@
+.container {
+  width: 1920px;
+  height: 455px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0 162px 0 162px;
+  position: absolute;
+  bottom: 107px;
+}
+
+.containerFooter {
+  width: 644px;
+  height: 455px;
+  box-sizing: border-box;
+  border-left: 1px solid rgb(28, 28, 33);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 60px;
+  padding: 100px 80px 100px 80px;
+}
+
+.containerNavigation {
+  width: 952px;
+  height: 454px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 100px 80px 100px 80px;
+  box-sizing: border-box;
+  border-left: 1px solid rgb(28, 28, 33);
+  border-right: 1px solid rgb(28, 28, 33);
+}
+
+.containerFooter p {
+  width: 700px;
+  height: 27px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 60px;
+  color: rgb(121, 124, 134);
+  font-size: 20px;
+  font-family: "Manrope", sans-serif;
+  text-transform: uppercase;
+}
+
+.rightContainer {
+  width: 495px;
+  height: 168px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 0 10px 0 0;
+}
+
+.firstTitle {
+  width: 290px;
+  height: 79px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  padding: 0;
+  color: rgb(255, 255, 255);
+  font-family: "Manrope", sans-serif;
+  font-size: 58px;
+  text-transform: uppercase;
+}
+
+.SecondTitle {
+  color: rgb(255, 255, 255);
+  font-family: "Manrope", sans-serif;
+  font-size: 58px;
+  width: 500px;
+  height: 79px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.titleButton {
+  width: 130px;
+  height: 66px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  padding: 18px 50px 18px 50px;
+  border-radius: 100px;
+  box-shadow: inset 4px 4px 17.4px 0px rgba(255, 255, 255, 0.28);
+  background: rgb(74, 44, 237);
+}
+
+.footerTitleHome {
+  width: 126px;
+  height: 168px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 0;
+}
+
+.footerTitleClients {
+  width: 90px;
+  height: 211px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 0;
+}
+
+.footerTitlePortfolio {
+  width: 128px;
+  height: 254px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 0;
+}
+
+.footerTitleServices {
+  width: 116px;
+  height: 168px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 0;
+}
+
+.container .containerNavigation a {
+  color: rgb(242, 242, 243);
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-bottom: 2px;
+  border-bottom: 1px solid rgba(121, 124, 134, 0.3);
+  cursor: pointer;
+}
+
+.container .containerNavigation h3 {
+  color: rgb(121, 124, 134);
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: "Manrope", sans-serif;
+}
+
+.imgLeft {
+  position: absolute;
+  left: -38px;
+}
+
+.imgRight {
+  position: absolute;
+  overflow: hidden;
+  right: 0;
+}
+
+.imgRight img {
+  width: 200px;
+  height: 200px;
+  rotate: 180deg;
+
+  position: relative;
+  left: 38px;
+}
